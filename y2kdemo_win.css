@@ -1,11 +1,10 @@
 /* ==========================================.............................................
     Y2K THEME MOD
 -----------------------------------------------======================================== */
-
-[class="_card_38c6c04"],._item_235a32d  {
+[data-test="shortcut-list"]{width: 98%;margin: auto;}
+._item_235a32d  {
     border-radius: .2em 1.3em .2em 1.3em!important;}
-[class="_card_38c6c04"]:hover{
-     border-radius:  1em !important;}
+[class="_card_38c6c04"]{ border-radius: 1.3em;}
 ._shortcutItem_6c8e7b4{
     border-radius: .2em 1em .2em 1em!important;
 img{border-radius: .3em .7em .3em .8em!important;}}
@@ -18,8 +17,7 @@ transition: 3200ms!important;}
 [class="_container_5116191 _searchFieldWithPopover_267e090 _isLoggedIn_9399dce"]{.searchFieldWithinSearchFieldWithPopover{
     border-radius:1em 1em 1em 1em  !important;}}
 [class="_container_5116191 _searchFieldWithPopover_267e090 _isLoggedIn_9399dce _active_5dd5be1"]{.searchFieldWithinSearchFieldWithPopover{
-border-radius: .2em 1.3em .2em 1.3em !important;
-transition:880ms!important;}}
+border-radius: .2em 1.3em .2em 1.3em !important;}}
 ._trackContent_7b758a9{
     border-radius: .67em .2em .67em .2em!Important;}
 ._utilityButtons_4d7aaf9{
@@ -27,8 +25,15 @@ transition:880ms!important;}}
 [class="_player_8c80ae6 nowPlayingVisible _notFullscreen_60c5a14"], [class="_player_8c80ae6 nowPlayingVisible"], [class="_player_8c80ae6 nowPlayingVisible _controlsHidden_ec77acd"]{
 ._trackContent_7b758a9{border-radius: .67em .2em .67em .67em!Important;}}
 [class="_wrapper_512d5f4"]{
-    border-radius: .4em 1.4em .4em 1.4em!important;;
-}
+    border-radius: .4em 1.4em .4em 1.4em!important;;}
+[class="_container_79ca9c5"]{
+    border-radius: 1.3em .2em 1.3em .2em!important;;}
+
+[class="_container_d3060bb _visible_4bed23e"], ._submenu_1951fe4 ,._contextMenu_8606b2d{
+    border-radius: .3em 1.3em .3em 1.3em!important;}
+[class="_subMenu_706d970"]{
+    border-radius: .3em 1.3em .3em 1.3em!important;}
+
 
 /* ==========================================.............................................
     Y2K FONT PACK
@@ -105,8 +110,7 @@ transition:880ms!important;}}
 --fontacc4: "AudioNugget";
 --fontacc: "Excelorate";
 --fontacc2: "CageRoll";
---fontacc3: "GoldenGirdle";
-}
+--fontacc3: "GoldenGirdle";}
 
 [class*="searchField"],
 [class*="label"],
@@ -224,8 +228,7 @@ span._metaItem_ed501cd.wave-text-capital-demi{
 
 /*top card thingies text*/
 ._shortcutItem_6c8e7b4 {
-    width: 98%;
-    transform: translateX(.3em);
+
 ._marketText_1lyag_1 {
        font-size: 14px; }}
 
@@ -294,7 +297,7 @@ transform: translateY(-.0em)!important;}
 div > div._metaText_9f5231f > button > span{
 font-family:var(--font3)!Important;}
 ._biography_3066ef2 p,._standalone_zmuq1_2._medium_zmuq1_4._marketLink_zmuq1_1 > ._underline_zmuq1_1,._marketLink_zmuq1_1 ._underline_zmuq1_1{
-    font-size: 15px;font-family: var(--font3)!important;}}
+    font-size: 14px;font-family: var(--font3)!important;}}
 div._wrapper_88ee7cb._header_b1aed07.content-header > div._headerContainer_d8ee9b4 > div._dataContainer_108ce86 > div > div > button > span{
     font-family: var(--fontacc2)!important;}
 
@@ -349,7 +352,7 @@ input[type=search]{
         --cover-F00TBAR1:  255, 242, 201    ; /*footer progress bar color (not now-playing)*/
         --cover-F00TBAR1BG: 207, 186, 255, .3;
         --cover-F00TD:     74, 66, 58    ; /*should be a darker version of F00T color*/
-        --footcard: rgba(237, 227, 255, 0.091);
+        --footcard: rgba(78, 60, 161, 0.192);
 
         --F00TNP: 23, 5, 64; /*footer color and lyrics container gb now-playing*/
         --F00TBARNP: 228, 178, 255  ; /*footer progress bar color (now-playing)*/
@@ -692,19 +695,16 @@ span._highlight_a043e62{color: black;}
 ._subContainer_e34d9db ._artistTextContainer_2879aaf,
 ._subContainer_51de625 ._artistTextContainer_7041a33,
 ._viewAllResultsContainer_515a3d8 ._viewAllResultsText_e3ba23a
-{
-    color: black!important;
-}
-}
-
+{color: black!important;}}
 
 /*profile-button and search dynamic buffer*/
 [class="_container_f1be359 searchFieldWithinSearchFieldWithPopover _searchField_b2eb7f7"],[class="_container_79ca9c5"]{
 transform: translateX(var(--searchbuf))!important;}
 [class="_buttonContainer_d207640"]{
 transform: translateX(var(--profbuff))!important;}
-@media (min-width: 1400px){:root{--searchbuf: -1.4em;   --profbuff: -.5em;}}
-@media (min-width: 1500px){:root{--searchbuf: -1.8em;   --profbuff: -.5em;}}
+@media (min-width: 800px){:root{--searchbuf: -1.4em;   --profbuff: -.5em;}}
+@media (min-width: 1400px){:root{--searchbuf: -1.5em;   --profbuff: -.5em;}}
+@media (min-width: 1500px){:root{--searchbuf: -2.5em;   --profbuff: -.5em;}}
 @media (min-width: 1700px){:root{--searchbuf: -2.5em; --profbuff: -.5em;}}
 @media (min-width: 1800px){:root{--searchbuf: -3.3em; }}
 @media (min-width: 1900px){:root{--searchbuf: -3.8em;   --profbuff: -1em;}}
@@ -967,7 +967,9 @@ a._button_94c5125, button._button_94c5125, ._button_94c5125{ background-color: r
    -----------------------------------------------======================================== */
 /*context menus*/
 [class="_container_d3060bb _visible_4bed23e"],._submenu_1951fe4
-{   background-color: #0000;
+{   
+    ._subTitle_193bdcb{color: rgb(var(--cover-DVib1))!important}
+    background-color: #0000;
     background-image: linear-gradient(var(--rotate),
     color-mix(in srgb, var(--v1) 60%, rgba(255, 255, 255, 0.5) 40%) ,
     color-mix(in srgb, var(--v2) 60%, rgba(255, 255, 255, 0.5) 40%))!important;
