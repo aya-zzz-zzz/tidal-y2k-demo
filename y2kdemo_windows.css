@@ -38,6 +38,12 @@ border-radius: .2em 1.3em .2em 1.3em !important;}}
 /* ==========================================.............................................
     Y2K FONT PACK
 -----------------------------------------------======================================== */
+
+    @font-face{
+    font-family: LTWave; /*accent/title - pretty stylized and pretty light,
+     a little short/wide which effects legibiliy*/
+    src: url('https://github.com/aya-zzz-zzz/tidaluna_tweaks/raw/refs/heads/main/fontdatabase/LTWave-Medium.otf') ;}
+
     @font-face{
     font-family: Audiowide; /*accent/title - pretty stylized and pretty light,
      a little short/wide which effects legibiliy*/
@@ -101,7 +107,7 @@ border-radius: .2em 1.3em .2em 1.3em !important;}}
 
 
 :root {
---font-family: "Hyperwave" ;
+--font-family: "LTWave","Excelorate" ;
 --font1:  "AVFontimer-Regular";
 --font2:  "Blooop";
 --font3:  "Kilby";
@@ -237,18 +243,18 @@ span._metaItem_ed501cd.wave-text-capital-demi{
 /*card title*/
 [class="_card_38c6c04"] {
     ._titleText_9e9bb51._medium20_1lyag_192._marketText_1lyag_1 {
-      font-size: 16.5px!Important;
+      font-size: 15.5px!Important;
       transform: translateY(.25em)!important;}
 ._subtitle_8f7e568._text20_1lyag_291._paragraph20_1lyag_138._marketText_1lyag_1, ._link_6a45a19._item_39605ae, ._artistText_a1c7611 > ._link_6a45a19._item_39605ae{
-         font-size: 15px!Important;
+         font-size: 14.5px!Important;
          transform: translateY(.7em)!important; }}
 /*horizontal card title*/
 ._item_235a32d { a,h1, h2, h3, p, span 
-{font-size: 15px!Important;}}
+{font-size: 14px!Important;}}
 
 /*tracklist text*/
 ._tableRow_299a426{._titleText_51cccae, ._item_39605ae, ._albumText_ddf6a0e,time 
-{font-size: 14.9px!Important;transform: translateY(.031em);}}
+{font-size: 14px!Important;transform: translateY(.031em);}}
 ._indexNumber_de640b9{
     display: inline-block; transform: translateY(-.101em);
     font-family:var(--font3) !important; font-size: 10.5px; }
@@ -315,6 +321,8 @@ input[type=search]{
     font-size: 11.5px;}
 [class="_container_5116191 _searchFieldWithPopover_267e090 _isLoggedIn_9399dce"]{
     input[type=search]{transform: translateY(-.02em);}}
+
+ 
 /* ==========================================.............................................
     BUILTINTHEME
 -----------------------------------------------======================================== */
