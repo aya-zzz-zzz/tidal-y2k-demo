@@ -12,6 +12,7 @@ img{border-radius: .3em .7em .3em .8em!important;}}
 img{border-radius: 0em 0em 0em 0em!important;}}
 ._marketButton_1d16h_1._medium_1d16h_4._primary_1d16h_6,
 ._marketButton_1d16h_1._medium_1d16h_4._secondary_1d16h_7{
+background-clip: padding-box;
 border-radius: .2em 1.1em .2em 1.1em!important;
 transition: 3200ms!important;}
 [class="_container_5116191 _searchFieldWithPopover_267e090 _isLoggedIn_9399dce"]{.searchFieldWithinSearchFieldWithPopover{
