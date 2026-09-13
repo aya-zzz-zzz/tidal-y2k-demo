@@ -134,7 +134,7 @@ button,
 [class*="textarea"],
 [data-test="grid-item-detail-text-title-artist"],
 ._marketTooltipContainer_1qti9_1,
-._indexNumber_de640b9
+._indexNumber_de640b9,A .css-yc8597, .css-pfqxe1, .css-1id1h8n, .css-pfqxe1, .css-axw7ok, .css-16hze37, .css-phs6im,.css-htqc2z
 /*most text*/
 {font-family: var(--font-family) !important;
 font-weight: 200!important;}
@@ -244,13 +244,13 @@ span._metaItem_ed501cd.wave-text-capital-demi{
 [class="_card_38c6c04"] {
     ._titleText_9e9bb51._medium20_1lyag_192._marketText_1lyag_1 {
       font-size: 15.5px!Important;
-      transform: translateY(.25em)!important;}
+      transform: translateY(.3em)!important;}
 ._subtitle_8f7e568._text20_1lyag_291._paragraph20_1lyag_138._marketText_1lyag_1, ._link_6a45a19._item_39605ae, ._artistText_a1c7611 > ._link_6a45a19._item_39605ae{
          font-size: 14.5px!Important;
-         transform: translateY(.7em)!important; }}
+         transform: translateY(.77em)!important; }}
 /*horizontal card title*/
 ._item_235a32d { a,h1, h2, h3, p, span 
-{font-size: 14px!Important;}}
+{font-size: 14.1px!Important;transform: translateY(.225em);}}
 
 /*tracklist text*/
 ._tableRow_299a426{._titleText_51cccae, ._item_39605ae, ._albumText_ddf6a0e,time 
@@ -825,7 +825,9 @@ border-color:color-mix(in srgb,rgb(var(--cover-Vib1),.5) 50%, rgba(255, 255, 255
     PLAYLISTS / ALBUMS
 -----------------------------------------------======================================== */
 a{color: rgb(var(--maintxt ))}
-
+[data-test="playlist-header-container"]{
+    span{color: rgb(var(--maintxt ))}
+}
 /*playlist header text adjustments*/
 [class="_dataContainer_5bb6028"], [class="_dataContainer_66f4f40"] {
     [data-wave-color=textDefault] {transform: translateY(-.4em); }
