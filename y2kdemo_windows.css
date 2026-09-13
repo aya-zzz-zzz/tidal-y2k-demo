@@ -253,8 +253,9 @@ span._metaItem_ed501cd.wave-text-capital-demi{
 {font-size: 14.1px!Important;transform: translateY(.225em);}}
 
 /*tracklist text*/
-._tableRow_299a426{._titleText_51cccae, ._item_39605ae, ._albumText_ddf6a0e,time 
-{font-size: 14px!Important;transform: translateY(.031em);}}
+._tableRow_299a426{._titleText_51cccae, ._item_39605ae, ._albumText_ddf6a0e,time ,:is(._titleColumn_ac57455,._albumColumn_907bff3,._artistColumn_1e5bae0,._timeColumn_f70e963,._bpmColumn_586ca98,._keyColumn_0b612a0,._dateAddedColumn_87dfbd3) span
+{font-size: 14px!Important;transform: translateY(.075em);}}
+
 ._indexNumber_de640b9{
     display: inline-block; transform: translateY(-.101em);
     font-family:var(--font3) !important; font-size: 10.5px; }
